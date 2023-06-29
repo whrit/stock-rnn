@@ -1,0 +1,2197 @@
+['Symbol', 'Name', 'Sector', 'Price', 'Price/Earnings', 'Dividend Yield', 'Earnings/Share', '52 Week Low', '52 Week High', 'Market Cap', 'EBITDA', 'Price/Sales', 'Price/Book', 'SEC Filings']
+  Symbol  ...                                        SEC Filings
+0    MMM  ...  http://www.sec.gov/cgi-bin/browse-edgar?action...
+1    AOS  ...  http://www.sec.gov/cgi-bin/browse-edgar?action...
+2    ABT  ...  http://www.sec.gov/cgi-bin/browse-edgar?action...
+3   ABBV  ...  http://www.sec.gov/cgi-bin/browse-edgar?action...
+4    ACN  ...  http://www.sec.gov/cgi-bin/browse-edgar?action...
+
+[5 rows x 14 columns]
+Loaded 505 stock symbols
+Fetching AAPL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10725 [2023-06-28 00:00:00 to 1980-12-12 00:00:00]
+Sleeping ... 3s
+# Failures so far [1/505]: 0
+Fetching GOOGL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4747 [2023-06-28 00:00:00 to 2004-08-19 00:00:00]
+Sleeping ... 1s
+Fetching GOOG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4747 [2023-06-28 00:00:00 to 2004-08-19 00:00:00]
+Sleeping ... 3s
+Fetching MSFT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9399 [2023-06-28 00:00:00 to 1986-03-13 00:00:00]
+Sleeping ... 5s
+Fetching AMZN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6573 [2023-06-28 00:00:00 to 1997-05-15 00:00:00]
+Sleeping ... 1s
+Fetching FB ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['FB']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/FB.csv because the data set is empty.
+Fetching JPM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+Fetching JNJ ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching XOM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching BAC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching WMT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+# Failures so far [11/505]: 1
+Fetching WFC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching V ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3846 [2023-06-28 00:00:00 to 2008-03-19 00:00:00]
+Sleeping ... 3s
+Fetching BRK.B ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['BRK.B']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/BRK.B.csv because the data set is empty.
+Fetching T ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9981 [2023-06-28 00:00:00 to 1983-11-21 00:00:00]
+Sleeping ... 3s
+Fetching HD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10530 [2023-06-28 00:00:00 to 1981-09-22 00:00:00]
+Sleeping ... 3s
+Fetching CVX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching UNH ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9752 [2023-06-28 00:00:00 to 1984-10-17 00:00:00]
+Sleeping ... 5s
+Fetching INTC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+Fetching PFE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching VZ ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9981 [2023-06-28 00:00:00 to 1983-11-21 00:00:00]
+Sleeping ... 2s
+# Failures so far [21/505]: 2
+Fetching PG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching BA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching ORCL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9400 [2023-06-28 00:00:00 to 1986-03-12 00:00:00]
+Sleeping ... 2s
+Fetching CSCO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8404 [2023-06-28 00:00:00 to 1990-02-16 00:00:00]
+Sleeping ... 4s
+Fetching C ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching KO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching MA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4302 [2023-06-28 00:00:00 to 2006-05-25 00:00:00]
+Sleeping ... 4s
+Fetching CMCSA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching ABBV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2640 [2023-06-28 00:00:00 to 2013-01-02 00:00:00]
+Sleeping ... 4s
+Fetching DWDP ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['DWDP']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/DWDP.csv because the data set is empty.
+# Failures so far [31/505]: 3
+Fetching PEP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching DIS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching PM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3848 [2023-06-28 00:00:00 to 2008-03-17 00:00:00]
+Sleeping ... 4s
+Fetching MRK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching IBM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching MMM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching NVDA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6148 [2023-06-28 00:00:00 to 1999-01-22 00:00:00]
+Sleeping ... 3s
+Fetching GE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching MCD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching AMGN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10090 [2023-06-28 00:00:00 to 1983-06-17 00:00:00]
+Sleeping ... 5s
+# Failures so far [41/505]: 3
+Fetching MO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching NFLX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5311 [2023-06-28 00:00:00 to 2002-05-23 00:00:00]
+Sleeping ... 4s
+Fetching HON ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching MDT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching GILD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7917 [2023-06-28 00:00:00 to 1992-01-22 00:00:00]
+Sleeping ... 5s
+Fetching NKE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10733 [2023-06-28 00:00:00 to 1980-12-02 00:00:00]
+Sleeping ... 1s
+Fetching UTX ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['UTX']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/UTX.csv because the data set is empty.
+Fetching BMY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching ABT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+Fetching UNP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+# Failures so far [51/505]: 4
+Fetching TXN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching ACN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5520 [2023-06-28 00:00:00 to 2001-07-19 00:00:00]
+Sleeping ... 4s
+Fetching LMT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching MS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7642 [2023-06-28 00:00:00 to 1993-02-23 00:00:00]
+Sleeping ... 4s
+Fetching GS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6078 [2023-06-28 00:00:00 to 1999-05-04 00:00:00]
+Sleeping ... 2s
+Fetching SLB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10460 [2023-06-28 00:00:00 to 1981-12-31 00:00:00]
+Sleeping ... 2s
+Fetching UPS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5945 [2023-06-28 00:00:00 to 1999-11-10 00:00:00]
+Sleeping ... 4s
+Fetching QCOM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7943 [2023-06-28 00:00:00 to 1991-12-13 00:00:00]
+Sleeping ... 3s
+Fetching ADBE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9293 [2023-06-28 00:00:00 to 1986-08-13 00:00:00]
+Sleeping ... 1s
+Fetching AVGO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3497 [2023-06-28 00:00:00 to 2009-08-06 00:00:00]
+Sleeping ... 2s
+# Failures so far [61/505]: 4
+Fetching CAT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching PCLN ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['PCLN']: Exception('%ticker%: No price data found, symbol may be delisted (1d 1980-01-01 -> 2023-06-28)')
+
+Remove data/PCLN.csv because the data set is empty.
+Fetching USB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching PYPL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2010 [2023-06-28 00:00:00 to 2015-07-06 00:00:00]
+Sleeping ... 5s
+Fetching KHC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2010 [2023-06-28 00:00:00 to 2015-07-06 00:00:00]
+Sleeping ... 4s
+Fetching CHTR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3393 [2023-06-28 00:00:00 to 2010-01-05 00:00:00]
+Sleeping ... 5s
+Fetching BLK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5973 [2023-06-28 00:00:00 to 1999-10-01 00:00:00]
+Sleeping ... 5s
+Fetching LLY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching TMO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching LOW ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+# Failures so far [71/505]: 5
+Fetching COST ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9318 [2023-06-28 00:00:00 to 1986-07-09 00:00:00]
+Sleeping ... 2s
+Fetching AXP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching CRM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4787 [2023-06-28 00:00:00 to 2004-06-23 00:00:00]
+Sleeping ... 4s
+Fetching SBUX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7808 [2023-06-28 00:00:00 to 1992-06-26 00:00:00]
+Sleeping ... 5s
+Fetching CVS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching CELG ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['CELG']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/CELG.csv because the data set is empty.
+Fetching TWX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6598 [2018-06-15 00:00:00 to 1992-03-19 00:00:00]
+Sleeping ... 2s
+Fetching PNC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching WBA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching SCHW ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9013 [2023-06-28 00:00:00 to 1987-09-22 00:00:00]
+Sleeping ... 5s
+# Failures so far [81/505]: 6
+Fetching NEE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching BIIB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8005 [2023-06-28 00:00:00 to 1991-09-17 00:00:00]
+Sleeping ... 2s
+Fetching CB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7620 [2023-06-28 00:00:00 to 1993-03-25 00:00:00]
+Sleeping ... 1s
+Fetching FDX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching DHR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching FOX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 1082 [2023-06-28 00:00:00 to 2019-03-13 00:00:00]
+Sleeping ... 5s
+Fetching MDLZ ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5545 [2023-06-28 00:00:00 to 2001-06-13 00:00:00]
+Sleeping ... 2s
+Fetching COP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10460 [2023-06-28 00:00:00 to 1981-12-31 00:00:00]
+Sleeping ... 5s
+Fetching GD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching CL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+# Failures so far [91/505]: 6
+Fetching GM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3172 [2023-06-28 00:00:00 to 2010-11-18 00:00:00]
+Sleeping ... 3s
+Fetching ANTM ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['ANTM']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/ANTM.csv because the data set is empty.
+Fetching EOG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8498 [2023-06-28 00:00:00 to 1989-10-04 00:00:00]
+Sleeping ... 2s
+Fetching AMT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6375 [2023-06-28 00:00:00 to 1998-02-27 00:00:00]
+Sleeping ... 4s
+Fetching AET ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5781 [2018-11-29 00:00:00 to 1995-12-14 00:00:00]
+Sleeping ... 1s
+Fetching RTN ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['RTN']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/RTN.csv because the data set is empty.
+Fetching NOC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10460 [2023-06-28 00:00:00 to 1981-12-31 00:00:00]
+Sleeping ... 1s
+Fetching SYK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+Fetching AGN ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['AGN']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/AGN.csv because the data set is empty.
+Fetching BK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+# Failures so far [101/505]: 9
+Fetching ITW ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching CME ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5174 [2023-06-28 00:00:00 to 2002-12-06 00:00:00]
+Sleeping ... 1s
+Fetching AIG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching OXY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10460 [2023-06-28 00:00:00 to 1981-12-31 00:00:00]
+Sleeping ... 5s
+Fetching MON ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['MON']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/MON.csv because the data set is empty.
+Fetching ATVI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7472 [2023-06-28 00:00:00 to 1993-10-25 00:00:00]
+Sleeping ... 5s
+Fetching DE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching DUK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching AMAT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching BDX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+# Failures so far [111/505]: 10
+Fetching MAR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6359 [2023-06-28 00:00:00 to 1998-03-23 00:00:00]
+Sleeping ... 5s
+Fetching ADP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching EL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6949 [2023-06-28 00:00:00 to 1995-11-17 00:00:00]
+Sleeping ... 5s
+Fetching CCL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9054 [2023-06-28 00:00:00 to 1987-07-24 00:00:00]
+Sleeping ... 1s
+Fetching MET ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5844 [2023-06-28 00:00:00 to 2000-04-05 00:00:00]
+Sleeping ... 5s
+Fetching MU ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9848 [2023-06-28 00:00:00 to 1984-06-01 00:00:00]
+Sleeping ... 3s
+Fetching TJX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9073 [2023-06-28 00:00:00 to 1987-06-26 00:00:00]
+Sleeping ... 2s
+Fetching SPG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7437 [2023-06-28 00:00:00 to 1993-12-14 00:00:00]
+Sleeping ... 1s
+Fetching PSX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2821 [2023-06-28 00:00:00 to 2012-04-12 00:00:00]
+Sleeping ... 5s
+Fetching CI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10398 [2023-06-28 00:00:00 to 1982-03-31 00:00:00]
+Sleeping ... 5s
+# Failures so far [121/505]: 10
+Fetching COF ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7203 [2023-06-28 00:00:00 to 1994-11-16 00:00:00]
+Sleeping ... 3s
+Fetching D ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching CSX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10752 [2023-06-28 00:00:00 to 1980-11-03 00:00:00]
+Sleeping ... 5s
+Fetching PRU ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5421 [2023-06-28 00:00:00 to 2001-12-13 00:00:00]
+Sleeping ... 5s
+Fetching SPGI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching CTSH ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6297 [2023-06-28 00:00:00 to 1998-06-19 00:00:00]
+Sleeping ... 2s
+Fetching ISRG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5794 [2023-06-28 00:00:00 to 2000-06-16 00:00:00]
+Sleeping ... 3s
+Fetching EBAY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6230 [2023-06-28 00:00:00 to 1998-09-24 00:00:00]
+Sleeping ... 4s
+Fetching CCI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6256 [2023-06-28 00:00:00 to 1998-08-18 00:00:00]
+Sleeping ... 4s
+Fetching EMR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+# Failures so far [131/505]: 10
+Fetching FOXA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 1083 [2023-06-28 00:00:00 to 2019-03-12 00:00:00]
+Sleeping ... 1s
+Fetching LYB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3315 [2023-06-28 00:00:00 to 2010-04-28 00:00:00]
+Sleeping ... 1s
+Fetching SO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10460 [2023-06-28 00:00:00 to 1981-12-31 00:00:00]
+Sleeping ... 4s
+Fetching HAL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching PX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 423 [2023-06-28 00:00:00 to 2021-10-21 00:00:00]
+Sleeping ... 1s
+Fetching ESRX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6676 [2018-12-21 00:00:00 to 1992-06-09 00:00:00]
+Sleeping ... 2s
+Fetching F ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching BBT ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['BBT']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/BBT.csv because the data set is empty.
+Fetching MMC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching STZ ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7879 [2023-06-28 00:00:00 to 1992-03-17 00:00:00]
+Sleeping ... 4s
+# Failures so far [141/505]: 11
+Fetching ICE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4432 [2023-06-28 00:00:00 to 2005-11-16 00:00:00]
+Sleeping ... 2s
+Fetching INTU ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7629 [2023-06-28 00:00:00 to 1993-03-12 00:00:00]
+Sleeping ... 5s
+Fetching NSC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10355 [2023-06-28 00:00:00 to 1982-06-02 00:00:00]
+Sleeping ... 3s
+Fetching TGT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching KMB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching VRTX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8043 [2023-06-28 00:00:00 to 1991-07-24 00:00:00]
+Sleeping ... 4s
+Fetching VLO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10459 [2023-06-28 00:00:00 to 1982-01-04 00:00:00]
+Sleeping ... 1s
+Fetching TRV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching KMI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3114 [2023-06-28 00:00:00 to 2011-02-11 00:00:00]
+Sleeping ... 2s
+Fetching ECL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+# Failures so far [151/505]: 11
+Fetching DAL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4067 [2023-06-28 00:00:00 to 2007-05-03 00:00:00]
+Sleeping ... 5s
+Fetching STT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching EA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8508 [2023-06-28 00:00:00 to 1989-09-20 00:00:00]
+Sleeping ... 4s
+Fetching SHW ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+Fetching HUM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10460 [2023-06-28 00:00:00 to 1981-12-31 00:00:00]
+Sleeping ... 4s
+Fetching MNST ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9464 [2023-06-28 00:00:00 to 1985-12-09 00:00:00]
+Sleeping ... 4s
+Fetching BSX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7835 [2023-06-28 00:00:00 to 1992-05-19 00:00:00]
+Sleeping ... 2s
+Fetching ZTS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2619 [2023-06-28 00:00:00 to 2013-02-01 00:00:00]
+Sleeping ... 4s
+Fetching ETN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching REGN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8122 [2023-06-28 00:00:00 to 1991-04-02 00:00:00]
+Sleeping ... 3s
+# Failures so far [161/505]: 11
+Fetching BAX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10505 [2023-06-28 00:00:00 to 1981-10-27 00:00:00]
+Sleeping ... 2s
+Fetching WM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8823 [2023-06-28 00:00:00 to 1988-06-22 00:00:00]
+Sleeping ... 5s
+Fetching AON ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10860 [2023-06-28 00:00:00 to 1980-06-02 00:00:00]
+Sleeping ... 5s
+Fetching TEL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4038 [2023-06-28 00:00:00 to 2007-06-14 00:00:00]
+Sleeping ... 3s
+Fetching HPQ ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching JCI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9009 [2023-06-28 00:00:00 to 1987-09-28 00:00:00]
+Sleeping ... 5s
+Fetching ALL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7572 [2023-06-28 00:00:00 to 1993-06-03 00:00:00]
+Sleeping ... 4s
+Fetching EXC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching APD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching HCA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3096 [2023-06-28 00:00:00 to 2011-03-10 00:00:00]
+Sleeping ... 3s
+# Failures so far [171/505]: 11
+Fetching LUV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching AFL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+Fetching EQIX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5755 [2023-06-28 00:00:00 to 2000-08-11 00:00:00]
+Sleeping ... 2s
+Fetching BHGE ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['BHGE']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/BHGE.csv because the data set is empty.
+Fetching STI ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['STI']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/STI.csv because the data set is empty.
+Fetching FIS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5540 [2023-06-28 00:00:00 to 2001-06-20 00:00:00]
+Sleeping ... 2s
+Fetching ILMN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5765 [2023-06-28 00:00:00 to 2000-07-28 00:00:00]
+Sleeping ... 4s
+Fetching PSA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10742 [2023-06-28 00:00:00 to 1980-11-18 00:00:00]
+Sleeping ... 3s
+Fetching APC ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['APC']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/APC.csv because the data set is empty.
+Fetching PLD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6440 [2023-06-28 00:00:00 to 1997-11-21 00:00:00]
+Sleeping ... 5s
+# Failures so far [181/505]: 14
+Fetching ADI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching VFC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching AEP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching MPC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3022 [2023-06-28 00:00:00 to 2011-06-24 00:00:00]
+Sleeping ... 1s
+Fetching MCK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7207 [2023-06-28 00:00:00 to 1994-11-10 00:00:00]
+Sleeping ... 5s
+Fetching GIS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching PGR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching SYY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching MCO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7215 [2023-06-28 00:00:00 to 1994-10-31 00:00:00]
+Sleeping ... 4s
+Fetching PXD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6514 [2023-06-28 00:00:00 to 1997-08-08 00:00:00]
+Sleeping ... 4s
+# Failures so far [191/505]: 14
+Fetching ROST ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9548 [2023-06-28 00:00:00 to 1985-08-08 00:00:00]
+Sleeping ... 4s
+Fetching PPG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching SYF ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2243 [2023-06-28 00:00:00 to 2014-07-31 00:00:00]
+Sleeping ... 1s
+Fetching CMI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching LRCX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9867 [2023-06-28 00:00:00 to 1984-05-04 00:00:00]
+Sleeping ... 2s
+Fetching MTB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching EW ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5851 [2023-06-28 00:00:00 to 2000-03-27 00:00:00]
+Sleeping ... 4s
+Fetching DFS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4038 [2023-06-28 00:00:00 to 2007-06-14 00:00:00]
+Sleeping ... 3s
+Fetching RCL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7597 [2023-06-28 00:00:00 to 1993-04-28 00:00:00]
+Sleeping ... 4s
+Fetching DXC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10460 [2023-06-28 00:00:00 to 1981-12-31 00:00:00]
+Sleeping ... 3s
+# Failures so far [201/505]: 14
+Fetching ROP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7901 [2023-06-28 00:00:00 to 1992-02-13 00:00:00]
+Sleeping ... 3s
+Fetching YUM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6487 [2023-06-28 00:00:00 to 1997-09-17 00:00:00]
+Sleeping ... 3s
+Fetching TSN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching APH ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7967 [2023-06-28 00:00:00 to 1991-11-08 00:00:00]
+Sleeping ... 1s
+Fetching FISV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 20 [2023-06-27 00:00:00 to 2023-05-30 00:00:00]
+Sleeping ... 1s
+Fetching DG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3427 [2023-06-28 00:00:00 to 2009-11-13 00:00:00]
+Sleeping ... 1s
+Fetching HLT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2401 [2023-06-28 00:00:00 to 2013-12-12 00:00:00]
+Sleeping ... 3s
+Fetching ALXN ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['ALXN']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/ALXN.csv because the data set is empty.
+Fetching SRE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6291 [2023-06-28 00:00:00 to 1998-06-29 00:00:00]
+Sleeping ... 2s
+Fetching WY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+# Failures so far [211/505]: 15
+Fetching FCX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7042 [2023-06-28 00:00:00 to 1995-07-10 00:00:00]
+Sleeping ... 1s
+Fetching TROW ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9386 [2023-06-28 00:00:00 to 1986-04-02 00:00:00]
+Sleeping ... 4s
+Fetching GLW ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10460 [2023-06-28 00:00:00 to 1981-12-31 00:00:00]
+Sleeping ... 5s
+Fetching KR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching DLTR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7128 [2023-06-28 00:00:00 to 1995-03-07 00:00:00]
+Sleeping ... 3s
+Fetching FTV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 1758 [2023-06-28 00:00:00 to 2016-07-05 00:00:00]
+Sleeping ... 2s
+Fetching APTV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2920 [2023-06-28 00:00:00 to 2011-11-17 00:00:00]
+Sleeping ... 4s
+Fetching WMB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10460 [2023-06-28 00:00:00 to 1981-12-31 00:00:00]
+Sleeping ... 2s
+Fetching HPE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 1936 [2023-06-28 00:00:00 to 2015-10-19 00:00:00]
+Sleeping ... 1s
+Fetching WDC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+# Failures so far [221/505]: 15
+Fetching AAL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4468 [2023-06-28 00:00:00 to 2005-09-27 00:00:00]
+Sleeping ... 4s
+Fetching SWK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+Fetching IP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching ZBH ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5516 [2023-06-28 00:00:00 to 2001-07-25 00:00:00]
+Sleeping ... 4s
+Fetching PH ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching ADSK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9576 [2023-06-28 00:00:00 to 1985-06-28 00:00:00]
+Sleeping ... 5s
+Fetching PCAR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching PEG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching ROK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10460 [2023-06-28 00:00:00 to 1981-12-31 00:00:00]
+Sleeping ... 3s
+Fetching ADM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+# Failures so far [231/505]: 15
+Fetching AMP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4476 [2023-06-28 00:00:00 to 2005-09-15 00:00:00]
+Sleeping ... 5s
+Fetching ED ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching PAYX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10041 [2023-06-28 00:00:00 to 1983-08-26 00:00:00]
+Sleeping ... 1s
+Fetching NTRS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching RHT ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['RHT']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/RHT.csv because the data set is empty.
+Fetching IR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 1542 [2023-06-28 00:00:00 to 2017-05-12 00:00:00]
+Sleeping ... 2s
+Fetching KEY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8981 [2023-06-28 00:00:00 to 1987-11-05 00:00:00]
+Sleeping ... 1s
+Fetching FITB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+Fetching COL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2059 [2020-11-30 00:00:00 to 2012-08-02 00:00:00]
+Sleeping ... 1s
+Fetching K ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+# Failures so far [241/505]: 16
+Fetching CXO ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['CXO']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/CXO.csv because the data set is empty.
+Fetching CFG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2205 [2023-06-28 00:00:00 to 2014-09-24 00:00:00]
+Sleeping ... 4s
+Fetching OKE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10775 [2023-06-28 00:00:00 to 1980-10-01 00:00:00]
+Sleeping ... 2s
+Fetching A ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5939 [2023-06-28 00:00:00 to 1999-11-18 00:00:00]
+Sleeping ... 2s
+Fetching AVB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7376 [2023-06-28 00:00:00 to 1994-03-11 00:00:00]
+Sleeping ... 4s
+Fetching BEN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10022 [2023-06-28 00:00:00 to 1983-09-23 00:00:00]
+Sleeping ... 4s
+Fetching MYL ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['MYL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/MYL.csv because the data set is empty.
+Fetching RSG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6289 [2023-06-28 00:00:00 to 1998-07-01 00:00:00]
+Sleeping ... 3s
+Fetching XEL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching RF ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+# Failures so far [251/505]: 18
+Fetching ORLY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7600 [2023-06-28 00:00:00 to 1993-04-23 00:00:00]
+Sleeping ... 5s
+Fetching DLR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4697 [2023-06-28 00:00:00 to 2004-10-29 00:00:00]
+Sleeping ... 2s
+Fetching DPS ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['DPS']: Exception('%ticker%: No price data found, symbol may be delisted (1d 1980-01-01 -> 2023-06-28)')
+
+Remove data/DPS.csv because the data set is empty.
+Fetching CERN ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['CERN']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/CERN.csv because the data set is empty.
+Fetching DISH ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7054 [2023-06-28 00:00:00 to 1995-06-21 00:00:00]
+Sleeping ... 3s
+Fetching GGP ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['GGP']: Exception('%ticker%: No price data found, symbol may be delisted (1d 1980-01-01 -> 2023-06-28)')
+
+Remove data/GGP.csv because the data set is empty.
+Fetching HCN ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['HCN']: Exception('%ticker%: No price data found, symbol may be delisted (1d 1980-01-01 -> 2023-06-28)')
+
+Remove data/HCN.csv because the data set is empty.
+Fetching EQR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7523 [2023-06-28 00:00:00 to 1993-08-12 00:00:00]
+Sleeping ... 5s
+Fetching HSY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching PPL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+# Failures so far [261/505]: 22
+Fetching BBY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9626 [2023-06-28 00:00:00 to 1985-04-18 00:00:00]
+Sleeping ... 1s
+Fetching WLTW ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['WLTW']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/WLTW.csv because the data set is empty.
+Fetching ABC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7108 [2023-06-28 00:00:00 to 1995-04-04 00:00:00]
+Sleeping ... 3s
+Fetching CAH ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10057 [2023-06-28 00:00:00 to 1983-08-04 00:00:00]
+Sleeping ... 4s
+Fetching CBS ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['CBS']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/CBS.csv because the data set is empty.
+Fetching IQV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2552 [2023-06-28 00:00:00 to 2013-05-09 00:00:00]
+Sleeping ... 2s
+Fetching PCG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching NUE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+Fetching HIG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6930 [2023-06-28 00:00:00 to 1995-12-15 00:00:00]
+Sleeping ... 4s
+Fetching AZO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8122 [2023-06-28 00:00:00 to 1991-04-02 00:00:00]
+Sleeping ... 3s
+# Failures so far [271/505]: 24
+Fetching MHK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7868 [2023-06-28 00:00:00 to 1992-04-01 00:00:00]
+Sleeping ... 4s
+Fetching NEM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching EXPE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4515 [2023-06-28 00:00:00 to 2005-07-21 00:00:00]
+Sleeping ... 2s
+Fetching MGM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8859 [2023-06-28 00:00:00 to 1988-05-02 00:00:00]
+Sleeping ... 1s
+Fetching SBAC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6048 [2023-06-28 00:00:00 to 1999-06-16 00:00:00]
+Sleeping ... 1s
+Fetching EIX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching MCHP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7624 [2023-06-28 00:00:00 to 1993-03-19 00:00:00]
+Sleeping ... 1s
+Fetching UAL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4378 [2023-06-28 00:00:00 to 2006-02-06 00:00:00]
+Sleeping ... 4s
+Fetching DVN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9561 [2023-06-28 00:00:00 to 1985-07-22 00:00:00]
+Sleeping ... 1s
+Fetching WEC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+# Failures so far [281/505]: 24
+Fetching VTR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6581 [2023-06-28 00:00:00 to 1997-05-05 00:00:00]
+Sleeping ... 4s
+Fetching ALGN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5638 [2023-06-28 00:00:00 to 2001-01-30 00:00:00]
+Sleeping ... 2s
+Fetching SWKS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9780 [2023-06-28 00:00:00 to 1984-09-07 00:00:00]
+Sleeping ... 2s
+Fetching PFG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5457 [2023-06-28 00:00:00 to 2001-10-23 00:00:00]
+Sleeping ... 3s
+Fetching CTL ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['CTL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/CTL.csv because the data set is empty.
+Fetching WYNN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5203 [2023-06-28 00:00:00 to 2002-10-25 00:00:00]
+Sleeping ... 4s
+Fetching INCY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7464 [2023-06-28 00:00:00 to 1993-11-04 00:00:00]
+Sleeping ... 4s
+Fetching HRS ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['HRS']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/HRS.csv because the data set is empty.
+Fetching ES ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching CNC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5421 [2023-06-28 00:00:00 to 2001-12-13 00:00:00]
+Sleeping ... 2s
+# Failures so far [291/505]: 26
+Fetching INFO ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['INFO']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/INFO.csv because the data set is empty.
+Fetching DTE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching BXP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6550 [2023-06-28 00:00:00 to 1997-06-18 00:00:00]
+Sleeping ... 3s
+Fetching DHI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7823 [2023-06-28 00:00:00 to 1992-06-05 00:00:00]
+Sleeping ... 3s
+Fetching OMC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+Fetching HRL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching LH ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8376 [2023-06-28 00:00:00 to 1990-03-29 00:00:00]
+Sleeping ... 3s
+Fetching AME ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9815 [2023-06-28 00:00:00 to 1984-07-19 00:00:00]
+Sleeping ... 3s
+Fetching LNC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching XLNX ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['XLNX']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/XLNX.csv because the data set is empty.
+# Failures so far [301/505]: 28
+Fetching VMC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching GPN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5648 [2023-06-28 00:00:00 to 2001-01-16 00:00:00]
+Sleeping ... 4s
+Fetching HBAN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+Fetching CTAS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10046 [2023-06-28 00:00:00 to 1983-08-19 00:00:00]
+Sleeping ... 4s
+Fetching MSI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching CLX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching SYMC ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['SYMC']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/SYMC.csv because the data set is empty.
+Fetching WRK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2017 [2023-06-28 00:00:00 to 2015-06-24 00:00:00]
+Sleeping ... 3s
+Fetching MTD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6445 [2023-06-28 00:00:00 to 1997-11-14 00:00:00]
+Sleeping ... 2s
+Fetching CMA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+# Failures so far [311/505]: 29
+Fetching LLL ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['LLL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/LLL.csv because the data set is empty.
+Fetching L ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching KLAC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10770 [2023-06-28 00:00:00 to 1980-10-08 00:00:00]
+Sleeping ... 5s
+Fetching WAT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6949 [2023-06-28 00:00:00 to 1995-11-17 00:00:00]
+Sleeping ... 4s
+Fetching ANDV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9758 [2018-10-01 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching TSS ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['TSS']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/TSS.csv because the data set is empty.
+Fetching VRSK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3454 [2023-06-28 00:00:00 to 2009-10-07 00:00:00]
+Sleeping ... 1s
+Fetching DOV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching IDXX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8065 [2023-06-28 00:00:00 to 1991-06-21 00:00:00]
+Sleeping ... 1s
+Fetching NTAP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6947 [2023-06-28 00:00:00 to 1995-11-21 00:00:00]
+Sleeping ... 2s
+# Failures so far [321/505]: 31
+Fetching FAST ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9035 [2023-06-28 00:00:00 to 1987-08-20 00:00:00]
+Sleeping ... 4s
+Fetching TXT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching TDG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4352 [2023-06-28 00:00:00 to 2006-03-15 00:00:00]
+Sleeping ... 3s
+Fetching APA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching URI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6422 [2023-06-28 00:00:00 to 1997-12-18 00:00:00]
+Sleeping ... 4s
+Fetching GWW ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching LEN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+Fetching GPC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching CBG ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['CBG']: Exception('%ticker%: No price data found, symbol may be delisted (1d 1980-01-01 -> 2023-06-28)')
+
+Remove data/CBG.csv because the data set is empty.
+Fetching NWL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+# Failures so far [331/505]: 32
+Fetching HST ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+Fetching ESS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7317 [2023-06-28 00:00:00 to 1994-06-07 00:00:00]
+Sleeping ... 3s
+Fetching CAG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching TPR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5716 [2023-06-28 00:00:00 to 2000-10-06 00:00:00]
+Sleeping ... 2s
+Fetching EMN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7437 [2023-06-28 00:00:00 to 1993-12-14 00:00:00]
+Sleeping ... 3s
+Fetching CA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9298 [2018-11-14 00:00:00 to 1981-12-10 00:00:00]
+Sleeping ... 2s
+Fetching FTI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5543 [2023-06-28 00:00:00 to 2001-06-15 00:00:00]
+Sleeping ... 4s
+Fetching EFX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching STX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5171 [2023-06-28 00:00:00 to 2002-12-11 00:00:00]
+Sleeping ... 2s
+Fetching HES ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+# Failures so far [341/505]: 32
+Fetching AWK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3822 [2023-06-28 00:00:00 to 2008-04-23 00:00:00]
+Sleeping ... 2s
+Fetching MRO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching LB ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['LB']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/LB.csv because the data set is empty.
+Fetching O ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7224 [2023-06-28 00:00:00 to 1994-10-18 00:00:00]
+Sleeping ... 1s
+Fetching BLL ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['BLL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/BLL.csv because the data set is empty.
+Fetching MLM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7391 [2023-06-28 00:00:00 to 1994-02-17 00:00:00]
+Sleeping ... 3s
+Fetching ETFC ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['ETFC']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/ETFC.csv because the data set is empty.
+Fetching FE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6449 [2023-06-28 00:00:00 to 1997-11-10 00:00:00]
+Sleeping ... 1s
+Fetching DVA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6962 [2023-06-28 00:00:00 to 1995-10-31 00:00:00]
+Sleeping ... 5s
+Fetching ADS ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['ADS']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/ADS.csv because the data set is empty.
+# Failures so far [351/505]: 36
+Fetching IVZ ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7008 [2023-06-28 00:00:00 to 1995-08-25 00:00:00]
+Sleeping ... 3s
+Fetching SJM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7215 [2023-06-28 00:00:00 to 1994-10-31 00:00:00]
+Sleeping ... 2s
+Fetching DGX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6676 [2023-06-28 00:00:00 to 1996-12-17 00:00:00]
+Sleeping ... 2s
+Fetching CPB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching MKC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching MAS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching XRAY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9041 [2023-06-28 00:00:00 to 1987-08-12 00:00:00]
+Sleeping ... 3s
+Fetching NLSN ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['NLSN']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/NLSN.csv because the data set is empty.
+Fetching ULTA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3945 [2023-06-28 00:00:00 to 2007-10-25 00:00:00]
+Sleeping ... 1s
+Fetching RMD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7067 [2023-06-28 00:00:00 to 1995-06-02 00:00:00]
+Sleeping ... 1s
+# Failures so far [361/505]: 37
+Fetching RJF ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10080 [2023-06-28 00:00:00 to 1983-07-01 00:00:00]
+Sleeping ... 5s
+Fetching CTXS ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['CTXS']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/CTXS.csv because the data set is empty.
+Fetching NCLH ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2628 [2023-06-28 00:00:00 to 2013-01-18 00:00:00]
+Sleeping ... 5s
+Fetching NBL ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['NBL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/NBL.csv because the data set is empty.
+Fetching ANSS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6801 [2023-06-28 00:00:00 to 1996-06-20 00:00:00]
+Sleeping ... 2s
+Fetching ETR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching COTY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2528 [2023-06-28 00:00:00 to 2013-06-13 00:00:00]
+Sleeping ... 3s
+Fetching CBOE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3282 [2023-06-28 00:00:00 to 2010-06-15 00:00:00]
+Sleeping ... 3s
+Fetching JBHT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9980 [2023-06-28 00:00:00 to 1983-11-22 00:00:00]
+Sleeping ... 1s
+Fetching NOV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6710 [2023-06-28 00:00:00 to 1996-10-29 00:00:00]
+Sleeping ... 1s
+# Failures so far [371/505]: 39
+Fetching CHRW ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6466 [2023-06-28 00:00:00 to 1997-10-16 00:00:00]
+Sleeping ... 3s
+Fetching XYL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2945 [2023-06-28 00:00:00 to 2011-10-13 00:00:00]
+Sleeping ... 5s
+Fetching AEE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6413 [2023-06-28 00:00:00 to 1998-01-02 00:00:00]
+Sleeping ... 3s
+Fetching NDAQ ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5285 [2023-06-28 00:00:00 to 2002-07-01 00:00:00]
+Sleeping ... 3s
+Fetching TIF ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['TIF']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/TIF.csv because the data set is empty.
+Fetching VNO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching SNPS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7893 [2023-06-28 00:00:00 to 1992-02-26 00:00:00]
+Sleeping ... 5s
+Fetching HAS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+Fetching GPS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching EQT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+# Failures so far [381/505]: 40
+Fetching LKQ ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4966 [2023-06-28 00:00:00 to 2003-10-06 00:00:00]
+Sleeping ... 1s
+Fetching PNR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching TAP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching PRGO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7941 [2023-06-28 00:00:00 to 1991-12-17 00:00:00]
+Sleeping ... 3s
+Fetching WHR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching ARNC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 816 [2023-06-28 00:00:00 to 2020-04-01 00:00:00]
+Sleeping ... 4s
+Fetching ARE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6565 [2023-06-28 00:00:00 to 1997-05-28 00:00:00]
+Sleeping ... 5s
+Fetching WYN ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['WYN']: Exception('%ticker%: No price data found, symbol may be delisted (1d 1980-01-01 -> 2023-06-28)')
+
+Remove data/WYN.csv because the data set is empty.
+Fetching AJG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9835 [2023-06-28 00:00:00 to 1984-06-20 00:00:00]
+Sleeping ... 4s
+Fetching CINF ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+# Failures so far [391/505]: 41
+Fetching CMS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching GRMN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5672 [2023-06-28 00:00:00 to 2000-12-08 00:00:00]
+Sleeping ... 1s
+Fetching CHD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching KMX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6643 [2023-06-28 00:00:00 to 1997-02-04 00:00:00]
+Sleeping ... 3s
+Fetching ALB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7389 [2023-06-28 00:00:00 to 1994-02-22 00:00:00]
+Sleeping ... 1s
+Fetching DRI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7084 [2023-06-28 00:00:00 to 1995-05-09 00:00:00]
+Sleeping ... 4s
+Fetching BWA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7522 [2023-06-28 00:00:00 to 1993-08-13 00:00:00]
+Sleeping ... 2s
+Fetching PVH ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+Fetching HSIC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6959 [2023-06-28 00:00:00 to 1995-11-03 00:00:00]
+Sleeping ... 2s
+Fetching CNP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+# Failures so far [401/505]: 41
+Fetching SNI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2451 [2018-03-08 00:00:00 to 2008-06-12 00:00:00]
+Sleeping ... 4s
+Fetching COO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10192 [2023-06-28 00:00:00 to 1983-01-21 00:00:00]
+Sleeping ... 4s
+Fetching FMC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+Fetching IFF ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching UNM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9233 [2023-06-28 00:00:00 to 1986-11-06 00:00:00]
+Sleeping ... 4s
+Fetching AMD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching HOLX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8396 [2023-06-28 00:00:00 to 1990-03-01 00:00:00]
+Sleeping ... 2s
+Fetching UHS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10582 [2023-06-28 00:00:00 to 1981-07-09 00:00:00]
+Sleeping ... 3s
+Fetching PKG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5891 [2023-06-28 00:00:00 to 2000-01-28 00:00:00]
+Sleeping ... 4s
+Fetching EXPD ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9767 [2023-06-28 00:00:00 to 1984-09-26 00:00:00]
+Sleeping ... 5s
+# Failures so far [411/505]: 41
+Fetching KSU ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['KSU']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/KSU.csv because the data set is empty.
+Fetching HCP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 389 [2023-06-28 00:00:00 to 2021-12-09 00:00:00]
+Sleeping ... 5s
+Fetching AKAM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5953 [2023-06-28 00:00:00 to 1999-10-29 00:00:00]
+Sleeping ... 4s
+Fetching CDNS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9085 [2023-06-28 00:00:00 to 1987-06-10 00:00:00]
+Sleeping ... 4s
+Fetching IT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7486 [2023-06-28 00:00:00 to 1993-10-05 00:00:00]
+Sleeping ... 1s
+Fetching COG ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['COG']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/COG.csv because the data set is empty.
+Fetching AOS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10017 [2023-06-28 00:00:00 to 1983-09-30 00:00:00]
+Sleeping ... 4s
+Fetching VRSN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6394 [2023-06-28 00:00:00 to 1998-01-30 00:00:00]
+Sleeping ... 1s
+Fetching XL ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['XL']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/XL.csv because the data set is empty.
+Fetching VAR ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['VAR']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/VAR.csv because the data set is empty.
+# Failures so far [421/505]: 45
+Fetching ZION ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 4s
+Fetching HII ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 3088 [2023-06-28 00:00:00 to 2011-03-22 00:00:00]
+Sleeping ... 3s
+Fetching VIAB ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['VIAB']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/VIAB.csv because the data set is empty.
+Fetching KSS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7835 [2023-06-28 00:00:00 to 1992-05-19 00:00:00]
+Sleeping ... 4s
+Fetching AMG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6440 [2023-06-28 00:00:00 to 1997-11-21 00:00:00]
+Sleeping ... 2s
+Fetching EXR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4750 [2023-06-28 00:00:00 to 2004-08-16 00:00:00]
+Sleeping ... 2s
+Fetching RE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6982 [2023-06-28 00:00:00 to 1995-10-03 00:00:00]
+Sleeping ... 5s
+Fetching AVY ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching XEC ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['XEC']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/XEC.csv because the data set is empty.
+Fetching KORS ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['KORS']: Exception('%ticker%: No price data found, symbol may be delisted (1d 1980-01-01 -> 2023-06-28)')
+
+Remove data/KORS.csv because the data set is empty.
+# Failures so far [431/505]: 48
+Fetching MAA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7405 [2023-06-28 00:00:00 to 1994-01-28 00:00:00]
+Sleeping ... 5s
+Fetching QRVO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2136 [2023-06-28 00:00:00 to 2015-01-02 00:00:00]
+Sleeping ... 1s
+Fetching REG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7468 [2023-06-28 00:00:00 to 1993-10-29 00:00:00]
+Sleeping ... 5s
+Fetching MOS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8926 [2023-06-28 00:00:00 to 1988-01-26 00:00:00]
+Sleeping ... 1s
+Fetching FBHS ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['FBHS']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/FBHS.csv because the data set is empty.
+Fetching TMK ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['TMK']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/TMK.csv because the data set is empty.
+Fetching SNA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching NWS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2524 [2023-06-28 00:00:00 to 2013-06-19 00:00:00]
+Sleeping ... 1s
+Fetching IRM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6898 [2023-06-28 00:00:00 to 1996-02-01 00:00:00]
+Sleeping ... 2s
+Fetching NWSA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2524 [2023-06-28 00:00:00 to 2013-06-19 00:00:00]
+Sleeping ... 3s
+# Failures so far [441/505]: 50
+Fetching JEC ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['JEC']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/JEC.csv because the data set is empty.
+Fetching JNPR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6041 [2023-06-28 00:00:00 to 1999-06-25 00:00:00]
+Sleeping ... 5s
+Fetching CF ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4500 [2023-06-28 00:00:00 to 2005-08-11 00:00:00]
+Sleeping ... 5s
+Fetching UDR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching DRE ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['DRE']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/DRE.csv because the data set is empty.
+Fetching WU ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4213 [2023-06-28 00:00:00 to 2006-10-02 00:00:00]
+Sleeping ... 4s
+Fetching LUK ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['LUK']: Exception('%ticker%: No price data found, symbol may be delisted (1d 1980-01-01 -> 2023-06-28)')
+
+Remove data/LUK.csv because the data set is empty.
+Fetching PHM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+Fetching DISCA ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['DISCA']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/DISCA.csv because the data set is empty.
+Fetching RL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6554 [2023-06-28 00:00:00 to 1997-06-12 00:00:00]
+Sleeping ... 4s
+# Failures so far [451/505]: 54
+Fetching FFIV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6056 [2023-06-28 00:00:00 to 1999-06-04 00:00:00]
+Sleeping ... 1s
+Fetching LNT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 3s
+Fetching SLG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6509 [2023-06-28 00:00:00 to 1997-08-15 00:00:00]
+Sleeping ... 4s
+Fetching MAC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7377 [2023-06-28 00:00:00 to 1994-03-10 00:00:00]
+Sleeping ... 5s
+Fetching TSCO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7391 [2023-06-28 00:00:00 to 1994-02-17 00:00:00]
+Sleeping ... 3s
+Fetching PNW ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching PKI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10952 [2023-06-26 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching DISCK ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['DISCK']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/DISCK.csv because the data set is empty.
+Fetching IPG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching GT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+# Failures so far [461/505]: 55
+Fetching JWN ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching HOG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 9319 [2023-06-28 00:00:00 to 1986-07-08 00:00:00]
+Sleeping ... 1s
+Fetching AAP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5431 [2023-06-28 00:00:00 to 2001-11-29 00:00:00]
+Sleeping ... 5s
+Fetching FRT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching NRG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4926 [2023-06-28 00:00:00 to 2003-12-02 00:00:00]
+Sleeping ... 4s
+Fetching HBI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4231 [2023-06-28 00:00:00 to 2006-09-06 00:00:00]
+Sleeping ... 3s
+Fetching SEE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+Fetching FLR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5677 [2023-06-28 00:00:00 to 2000-12-01 00:00:00]
+Sleeping ... 4s
+Fetching XRX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching ALK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 3s
+# Failures so far [471/505]: 55
+Fetching NI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 5s
+Fetching CMG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4385 [2023-06-28 00:00:00 to 2006-01-26 00:00:00]
+Sleeping ... 5s
+Fetching ALLE ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2418 [2023-06-28 00:00:00 to 2013-11-18 00:00:00]
+Sleeping ... 5s
+Fetching M ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7907 [2023-06-28 00:00:00 to 1992-02-05 00:00:00]
+Sleeping ... 1s
+Fetching HP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10765 [2023-06-28 00:00:00 to 1980-10-15 00:00:00]
+Sleeping ... 3s
+Fetching BHF ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 1498 [2023-06-28 00:00:00 to 2017-07-17 00:00:00]
+Sleeping ... 1s
+Fetching RHI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 5s
+Fetching AES ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8062 [2023-06-28 00:00:00 to 1991-06-26 00:00:00]
+Sleeping ... 5s
+Fetching FLIR ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['FLIR']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/FLIR.csv because the data set is empty.
+Fetching PBCT ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['PBCT']: Exception('%ticker%: No timezone found, symbol may be delisted')
+
+Remove data/PBCT.csv because the data set is empty.
+# Failures so far [481/505]: 57
+Fetching AYI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 5429 [2023-06-28 00:00:00 to 2001-12-03 00:00:00]
+Sleeping ... 2s
+Fetching SRCL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6756 [2023-06-28 00:00:00 to 1996-08-23 00:00:00]
+Sleeping ... 1s
+Fetching KIM ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7957 [2023-06-28 00:00:00 to 1991-11-22 00:00:00]
+Sleeping ... 5s
+Fetching AIV ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7285 [2023-06-28 00:00:00 to 1994-07-22 00:00:00]
+Sleeping ... 2s
+Fetching LEG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 1s
+Fetching UAA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4430 [2023-06-28 00:00:00 to 2005-11-18 00:00:00]
+Sleeping ... 4s
+Fetching MAT ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 4s
+Fetching FL ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 2s
+Fetching TRIP ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2907 [2023-06-28 00:00:00 to 2011-12-07 00:00:00]
+Sleeping ... 5s
+Fetching NFX ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6345 [2019-02-13 00:00:00 to 1993-11-12 00:00:00]
+Sleeping ... 3s
+# Failures so far [491/505]: 57
+Fetching BF.B ...
+[*********************100%***********************]  1 of 1 completed
+1 Failed download:
+['BF.B']: Exception('%ticker%: No price data found, symbol may be delisted (1d 1980-01-01 -> 2023-06-28)')
+
+Remove data/BF.B.csv because the data set is empty.
+Fetching FLS ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10913 [2023-06-28 00:00:00 to 1980-03-17 00:00:00]
+Sleeping ... 2s
+Fetching HRB ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10965 [2023-06-28 00:00:00 to 1980-01-02 00:00:00]
+Sleeping ... 1s
+Fetching UA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 1828 [2023-06-28 00:00:00 to 2016-03-23 00:00:00]
+Sleeping ... 3s
+Fetching PWR ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 6385 [2023-06-28 00:00:00 to 1998-02-12 00:00:00]
+Sleeping ... 5s
+Fetching SCG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 872 [2018-12-31 00:00:00 to 2015-07-16 00:00:00]
+Sleeping ... 4s
+Fetching CSRA ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 598 [2018-04-03 00:00:00 to 2015-11-16 00:00:00]
+Sleeping ... 3s
+Fetching AIZ ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 4882 [2023-06-28 00:00:00 to 2004-02-05 00:00:00]
+Sleeping ... 2s
+Fetching EVHC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 1299 [2018-10-10 00:00:00 to 2013-08-14 00:00:00]
+Sleeping ... 2s
+Fetching NAVI ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 2315 [2023-06-28 00:00:00 to 2014-04-17 00:00:00]
+Sleeping ... 2s
+# Failures so far [501/505]: 58
+Fetching RRC ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 10847 [2023-06-28 00:00:00 to 1980-06-19 00:00:00]
+Sleeping ... 2s
+Fetching PDCO ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 7722 [2023-06-28 00:00:00 to 1992-10-28 00:00:00]
+Sleeping ... 5s
+Fetching SIG ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 8808 [2023-06-28 00:00:00 to 1988-07-14 00:00:00]
+Sleeping ... 1s
+Fetching CHK ...
+[*********************100%***********************]  1 of 1 completed
+# Fetched rows: 599 [2023-06-28 00:00:00 to 2021-02-10 00:00:00]
+Sleeping ... 5s
